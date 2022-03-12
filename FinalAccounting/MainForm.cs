@@ -27,9 +27,13 @@ namespace FinalAccounting
             try
             {
                 DataTable dt = new DataTable();
+            
                 dt = queries.GetExpenses(id);
+
                 ExpenseViewGrid.DataSource = dt;
-            }catch(Exception ex)
+                ExpenseViewGrid.Columns[2].DisplayIndex = 3;
+            }
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message,"Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

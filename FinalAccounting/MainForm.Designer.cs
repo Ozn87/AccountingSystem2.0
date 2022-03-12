@@ -112,7 +112,7 @@
             this.ExpenseViewGrid.Location = new System.Drawing.Point(339, 56);
             this.ExpenseViewGrid.Name = "ExpenseViewGrid";
             this.ExpenseViewGrid.ReadOnly = true;
-            this.ExpenseViewGrid.Size = new System.Drawing.Size(409, 159);
+            this.ExpenseViewGrid.Size = new System.Drawing.Size(526, 159);
             this.ExpenseViewGrid.TabIndex = 6;
             // 
             // MainForm
